@@ -1,13 +1,14 @@
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+with open('README.md', 'r', encoding='utf-8') as file:
+    long_description = file.read()
 
 setuptools.setup(
     name="hankyo", # Replace with your own username
     version="0.0.1",
     author="Hankyo Jeong",
     author_email="tkfka1@korea.com",
+    install_requires=[],
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
